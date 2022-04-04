@@ -5,7 +5,7 @@ export default function ItemList({ list }) {
     <div className="grid grid-cols-3 grid-flow-row gap-3 border">
       {list.map((item) => {
         return (
-          <Link href={`/view/${item.id}`} key={item.id}>
+          <Link href={`/detail/${item.id}`} key={item.id}>
             <a>
               <div>
                 <img src={item.image_link} alt={item.image_link} />

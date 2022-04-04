@@ -23,6 +23,7 @@ export default function Navbar() {
       >
         about1
       </div>
+
       <div
         className="p-2"
         onClick={() => {
@@ -30,6 +31,14 @@ export default function Navbar() {
         }}
       >
         about1
+      </div>
+      <div
+        className="p-2"
+        onClick={() => {
+          goLink("/admin");
+        }}
+      >
+        Admin
       </div>
     </div>
   );
